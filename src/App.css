@@ -1,0 +1,64 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+  transition: 2s ease;
+}
+
+img{
+  width: 20px;
+  height: 20px;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+
+#quote-box{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  min-width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* transition: 2s ease; */
+}
+
+#quote{
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  margin-top: 30px;
+}
+
+#quote p{
+  margin-top: 20px;
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 15px;
+  margin-top: auto;
+}
+
+button{
+  margin-left: auto;
+ border-radius: 5px;
+  padding: 5px; 
+  background-color: transparent;
+  font-weight: bold;
+  transition: 1s ease;
+}
+
